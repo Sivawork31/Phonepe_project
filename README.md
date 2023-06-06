@@ -1,10 +1,14 @@
 # Phonepe-pulse
-Hi !!!! This is the app I created to analyse Phonepe pulse data ... Data cloned  from the official phonepe gitup repository and dne all analysation and extratraction process ...Then I deployed this app in streamlit.Enjoy the code 😉![world-map-line-business-connection-free-video](https://github.com/Rabbit3112/Phonepe-Data-visualization/assets/121392940/ce816a20-c9b1-4860-9e0b-27da09c27855)
+Hi !!!! This is the app I created to analyse Phonepe pulse data ... Data cloned  from the official phonepe gitup repository and done all analysation and extratraction process ...Then I deployed this app in streamlit.Enjoy the code 😉
+![world map](https://github.com/Rabbit3112/Phonepe-Data-visualization/assets/121392940/ed442d1d-58ab-4aa0-8342-418d8854b1e7)
+
+
 
 First lets extracts datas from the github and convert it into csv files
-This is the dataset i used in my streamlit web application to visualize datas..
 
-After cloning files from github repo i created a for loop to loop through each folder and get datas from it and then append it to a dataframe to make it easy to covert to csv.
+After cloning files from github repo I created a for loop to loop through each folder and get datas from it and then append it to a dataframe to make it easy to covert to csv.
+
+This is the dataset where i will use in my streamlit web application to visualize datas..
 
 ![code](https://github.com/Rabbit3112/Phonepe-Data-visualization/assets/121392940/d2003529-574f-4371-8eae-854f76ddb14b)
 
