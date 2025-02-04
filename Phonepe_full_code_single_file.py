@@ -1,9 +1,4 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[128]:
-
-
+# Import Necessary libraries: 
 import streamlit  as st
 import json 
 import os
@@ -65,7 +60,7 @@ Agg_Transac_csv = pd.read_csv('phonepe_csv/Agg_Transac.csv')
 Agg_Transac
 
 
-# In[130]:
+
 
 
 cursor.execute("create table aggregate_transaction(state varchar(45), year int, Quater int, tansaction_type varchar(45), transaction_count int, transaction_amount float)")
@@ -78,15 +73,6 @@ print('Data inserted into Table-1 successfully')
 #**************************************** ------  1 st finished  ------************************************************
     
     
-
-
-# In[ ]:
-
-
-
-
-
-# In[131]:
 
 
 #                         2.  This is to direct the path to get the data as users per states:
@@ -136,9 +122,6 @@ userby_device.to_csv("phonepe_csv/userby_device.csv")
 userby_device
 
 
-# In[132]:
-
-
 cursor.execute("create table userby_device(state varchar(45),year int,Quarter int,users_brand varchar(45),users_count int,user_percentage float)")
 for record in userby_device.values:
     cursor.execute("insert into userby_device(state, year, Quarter, users_brand, users_count, user_percentage) values{}".format(tuple(record)))
@@ -148,15 +131,6 @@ print('Data inserted into Table-2 successfully')
 
 #**************************************** ------  2 nd finished  ------************************************************
 
-
-
-# In[ ]:
-
-
-
-
-
-# In[133]:
 
 
 #                                  3.   This is for map_transaction:
@@ -220,15 +194,6 @@ print('Data inserted into Table-3 successfully')
     
 #**************************************** ------  3 rd finished  ------************************************************
 
-
-
-# In[ ]:
-
-
-
-
-
-# In[135]:
 
 
 #                            4.  This is registered users in India :
