@@ -9,6 +9,8 @@ First lets extracts datas from the github and convert it into csv files
 
 
 
+
+
 After cloning files from github repo I created a for loop to loop through each folder and get datas from it and then append it to a dataframe to make it easy to covert to csv.
 
 This is the dataset where i will use in my streamlit web application to visualize datas..
@@ -16,6 +18,7 @@ This is the dataset where i will use in my streamlit web application to visualiz
 ![code](https://github.com/Rabbit3112/Phonepe-Data-visualization/assets/121392940/d2003529-574f-4371-8eae-854f76ddb14b)
 
 Now we want to repeat this process for all respective folders then we can get all the data in our desired format of csv.
+
 
 After extracting the data we need to upload it into Mysql
 To insert datas into Mysql i used Mysql connector python(you can use sqlalchemy also)
