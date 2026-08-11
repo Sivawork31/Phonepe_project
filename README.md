@@ -3,11 +3,7 @@ Hi !!!! This is the app I created to analyse Phonepe pulse data ... Data cloned 
 ![world map](https://github.com/Rabbit3112/Phonepe-Data-visualization/assets/121392940/ed442d1d-58ab-4aa0-8342-418d8854b1e7)
 
 
-
-First lets extracts datas from the github and convert it into csv files
-
-
-
+irst lets extracts datas from the github and convert it into csv files
 
 
 
